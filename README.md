@@ -1,7 +1,12 @@
 # nvue-i18n
 
-## A solution for uni-app ".nvue"(".vue" is also supported) i18n.
+## An i18n solution for uni-app ".nvue"(".vue" is also supported).
 
+Quick start:
+
+```
+npm install
+```
 
 **Credits:**
 
