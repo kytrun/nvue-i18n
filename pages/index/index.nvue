@@ -28,13 +28,13 @@ export default {
   methods: {
     change() {
       console.log('语言切换')
-      const system_info = uni.getStorageSync('system_info')
-      if (system_info.language === 'en') {
-        system_info.language = globalData._i18n.locale = 'zh_CN'
+      let language = uni.getStorageSync('CURRENT_LANG')
+      if (language === 'en') {
+        language = globalData._i18n.locale = 'zh-CN'
       } else {
-        system_info.language = globalData._i18n.locale = 'en'
+        language = globalData._i18n.locale = 'en'
       }
-      uni.setStorageSync('system_info', system_info)
+      uni.setStorageSync('CURRENT_LANG', language)
       uni.reLaunch({
         url: 'index'
       })
