@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "license": "MIT",
   "dependencies": {
-    "vue-i18n": "^8.24.0"
+    "vue-i18n": "^8.24.1"
   }
 }
