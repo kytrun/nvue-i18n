@@ -1,13 +1,13 @@
 <script>
 export default {
   globalData: {
-    _i18n: {},
+    $i18n: {},
     $t: {}
   },
   onLaunch: function() {
     console.log('App Launch')
 	
-    this.globalData._i18n = this.$i18n
+    this.globalData.$i18n = this.$i18n
     this.globalData.$t = str => this.$t(str)
   },
   onShow: function() {

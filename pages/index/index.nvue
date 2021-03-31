@@ -30,9 +30,9 @@ export default {
       console.log('语言切换')
       let language = uni.getStorageSync('CURRENT_LANG')
       if (language === 'en') {
-        language = globalData._i18n.locale = 'zh-CN'
+        language = globalData.$i18n.locale = 'zh-CN'
       } else {
-        language = globalData._i18n.locale = 'en'
+        language = globalData.$i18n.locale = 'en'
       }
       uni.setStorageSync('CURRENT_LANG', language)
       uni.reLaunch({
