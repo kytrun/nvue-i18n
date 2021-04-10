@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import VueI18n from 'vue-i18n'
+import VueI18n from '@/node_modules/vue-i18n/dist/vue-i18n.esm.js'
 import langEn from './en'
 import langZhCN from './zh-CN'
 
@@ -23,4 +23,6 @@ const i18n = new VueI18n({
 		'zh-CN': langZhCN
 	}
 })
+
+// console.log(VueI18n.version)
 export default i18n
