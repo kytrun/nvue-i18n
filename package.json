@@ -4,6 +4,6 @@
   "license": "MIT",
   "private": true,
   "dependencies": {
-    "vue-i18n": "^8.24.3"
+    "vue-i18n": "^8.24.4"
   }
 }
