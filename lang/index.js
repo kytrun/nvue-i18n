@@ -24,5 +24,5 @@ const i18n = new VueI18n({
 	}
 })
 
-// console.log(VueI18n.version)
+console.log(VueI18n.version)
 export default i18n
