@@ -11,10 +11,6 @@ $ npm install
 
 vue-i18n 完整使用教程：<https://kazupon.github.io/vue-i18n/>
 
-支持一下：
-
-![](https://cdn.jsdelivr.net/gh/tangkaichuan/img/src/pay_qrcode_small.png)
-
 参考:
 
 <https://github.com/menglin1997/changeLang>
