@@ -1,7 +1,7 @@
 # nvue-i18n: uni-app “nvue” 国际化解决方案（也支持 “vue”）。
 
 
-GitHub 地址：<https://github.com/tangkaichuan/nvue-i18n>
+GitHub 地址：<https://github.com/kytrun/nvue-i18n>
 
 安装：
 
